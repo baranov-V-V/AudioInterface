@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../third_party/freealut/include/AL/alut.h
+alc.h
+-
+al.h
+-
+OpenAL/alc.h
+-
+OpenAL/al.h
+-
+AL/al.h
+-
+AL/alc.h
+-
+
+/home/viktor/repos/AudioInterface/third_party/freealut/examples/hello_world.c
+stdlib.h
+-
+AL/alut.h
+-
+
+/usr/include/AL/al.h
+
+/usr/include/AL/alc.h
+

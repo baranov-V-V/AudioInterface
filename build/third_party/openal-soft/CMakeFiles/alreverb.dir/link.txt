@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9 -g  -rdynamic CMakeFiles/alreverb.dir/examples/alreverb.c.o  -o alreverb  -Wl,-rpath,/home/viktor/repos/AudioInterface/build/third_party/openal-soft: -pthread /usr/lib/x86_64-linux-gnu/libsndfile.so libex-common.a libopenal.so.1.22.0 -lrt 

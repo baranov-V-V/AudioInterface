@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/uhjencoder.dir/utils/uhjencoder.cpp.o"
+  "uhjencoder"
+  "uhjencoder.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/uhjencoder.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

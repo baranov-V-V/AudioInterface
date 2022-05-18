@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -std=c++17 -g -g  -rdynamic CMakeFiles/alstreamcb.dir/examples/alstreamcb.cpp.o  -o alstreamcb  -Wl,-rpath,/home/viktor/repos/AudioInterface/build/third_party/openal-soft -pthread /usr/lib/x86_64-linux-gnu/libsndfile.so libex-common.a libopenal.so.1.22.0 -lrt 

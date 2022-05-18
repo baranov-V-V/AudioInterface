@@ -1,0 +1,567 @@
+[
+{
+  "directory": "/home/viktor/repos/AudioInterface/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/main.cpp.o -c /home/viktor/repos/AudioInterface/src/main.cpp",
+  "file": "/home/viktor/repos/AudioInterface/src/main.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioBuffer.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioBuffer.cpp",
+  "file": "/home/viktor/repos/AudioInterface/src/audio/AudioBuffer.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioContext.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioContext.cpp",
+  "file": "/home/viktor/repos/AudioInterface/src/audio/AudioContext.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioDevice.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioDevice.cpp",
+  "file": "/home/viktor/repos/AudioInterface/src/audio/AudioDevice.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioSource.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioSource.cpp",
+  "file": "/home/viktor/repos/AudioInterface/src/audio/AudioSource.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/SoundUtils.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/SoundUtils.cpp",
+  "file": "/home/viktor/repos/AudioInterface/src/audio/SoundUtils.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/SourcePool.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/SourcePool.cpp",
+  "file": "/home/viktor/repos/AudioInterface/src/audio/SourcePool.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/alstreamcb.dir/examples/alstreamcb.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alstreamcb.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alstreamcb.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/allatency.dir/examples/allatency.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/allatency.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/allatency.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/uhjencoder.dir/utils/uhjencoder.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/utils/uhjencoder.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/utils/uhjencoder.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/alplay.dir/examples/alplay.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alplay.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alplay.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/alcomplex.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/alcomplex.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/alcomplex.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/alfstream.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/alfstream.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/alfstream.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/almalloc.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/almalloc.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/almalloc.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/alstring.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/alstring.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/alstring.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/dynload.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/dynload.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/dynload.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/polyphase_resampler.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/polyphase_resampler.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/polyphase_resampler.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/ringbuffer.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/ringbuffer.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/ringbuffer.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/strutils.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/strutils.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/strutils.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/common.dir/common/threads.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/common/threads.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/common/threads.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/alhrtf.dir/examples/alhrtf.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alhrtf.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alhrtf.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/openal-info.dir/utils/openal-info.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/utils/openal-info.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/utils/openal-info.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/alstream.dir/examples/alstream.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alstream.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alstream.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/ex-common.dir/examples/common/alhelpers.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/common/alhelpers.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/common/alhelpers.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/uhjdecoder.dir/utils/uhjdecoder.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/utils/uhjdecoder.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/utils/uhjdecoder.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/almultireverb.dir/examples/almultireverb.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/almultireverb.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/almultireverb.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/altonegen.dir/examples/altonegen.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/altonegen.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/altonegen.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/alconvolve.dir/examples/alconvolve.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alconvolve.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alconvolve.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/auxeffectslot.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/auxeffectslot.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/auxeffectslot.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/buffer.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/buffer.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/buffer.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effect.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effect.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effect.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/autowah.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/autowah.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/autowah.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/chorus.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/chorus.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/chorus.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/compressor.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/compressor.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/compressor.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/convolution.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/convolution.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/convolution.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/dedicated.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/dedicated.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/dedicated.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/distortion.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/distortion.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/distortion.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/echo.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/echo.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/echo.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/effects.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/effects.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/effects.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/equalizer.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/equalizer.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/equalizer.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/fshifter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/fshifter.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/fshifter.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/modulator.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/modulator.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/modulator.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/null.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/null.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/null.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/pshifter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/pshifter.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/pshifter.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/reverb.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/reverb.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/reverb.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/effects/vmorpher.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/vmorpher.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/effects/vmorpher.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/error.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/error.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/error.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/event.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/event.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/event.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/extension.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/extension.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/extension.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/filter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/filter.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/filter.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/listener.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/listener.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/listener.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/source.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/source.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/source.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/al/state.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/al/state.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/al/state.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/alc.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/alc.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/alc.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/alu.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/alu.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/alu.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/alconfig.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/alconfig.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/alconfig.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/context.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/context.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/context.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/device.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/device.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/device.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/autowah.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/autowah.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/autowah.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/chorus.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/chorus.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/chorus.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/compressor.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/compressor.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/compressor.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/convolution.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/convolution.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/convolution.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/dedicated.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/dedicated.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/dedicated.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/distortion.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/distortion.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/distortion.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/echo.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/echo.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/echo.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/equalizer.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/equalizer.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/equalizer.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/fshifter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/fshifter.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/fshifter.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/modulator.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/modulator.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/modulator.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/null.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/null.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/null.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/pshifter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/pshifter.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/pshifter.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/reverb.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/reverb.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/reverb.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/effects/vmorpher.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/vmorpher.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/effects/vmorpher.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/panning.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/panning.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/panning.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/backends/base.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/base.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/base.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/backends/loopback.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/loopback.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/loopback.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/backends/null.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/null.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/null.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/backends/alsa.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/alsa.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/alsa.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/backends/oss.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/oss.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/oss.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/pulseaudio.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/pulseaudio.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/wave.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/wave.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/ambdec.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/ambdec.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/ambdec.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/ambidefs.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/ambidefs.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/bformatdec.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/bformatdec.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/bs2b.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/bs2b.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/bs2b.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/bsinc_tables.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/bsinc_tables.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/buffer_storage.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/buffer_storage.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/context.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/context.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/context.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/converter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/converter.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/converter.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/cpu_caps.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/cpu_caps.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/devformat.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/devformat.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/devformat.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/device.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/device.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/device.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/effectslot.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/effectslot.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/effectslot.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/except.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/except.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/except.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/biquad.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/biquad.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/nfc.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/nfc.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/splitter.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/splitter.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/fmt_traits.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/fmt_traits.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/fpu_ctrl.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/fpu_ctrl.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/helpers.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/helpers.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/helpers.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/hrtf.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/hrtf.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/hrtf.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/logging.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/logging.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/logging.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/mastering.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mastering.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mastering.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/mixer.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/uhjfilter.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/uhjfilter.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/uiddefs.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/uiddefs.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/voice.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/voice.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/voice.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_c.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_c.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse2.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse2.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse3.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse3.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DALC_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_ALEXT_PROTOTYPES -DAL_API=\"__attribute__((visibility(\\\"protected\\\")))\" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common  -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -fno-math-errno -fvisibility=hidden -pthread -std=gnu++14 -o CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse41.cpp",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse41.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/alreverb.dir/examples/alreverb.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alreverb.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alreverb.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
+  "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/alrecord.dir/examples/alrecord.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alrecord.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alrecord.c"
+}
+]

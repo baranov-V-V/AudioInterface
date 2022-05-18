@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9  -finline-functions -ffast-math -fomit-frame-pointer -g  -rdynamic CMakeFiles/test_version.dir/test_suite/test_version.c.o  -o test_version  -Wl,-rpath,/home/viktor/repos/AudioInterface/build/third_party/freealut/src src/libalut.so.0 -lopenal -lm 

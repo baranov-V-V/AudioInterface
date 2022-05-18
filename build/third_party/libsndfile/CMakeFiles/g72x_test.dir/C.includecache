@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../third_party/libsndfile/src/sf_unistd.h
+sys/stat.h
+-
+io.h
+-
+
+../third_party/libsndfile/src/sfconfig.h
+config.h
+../third_party/libsndfile/src/config.h
+
+/home/viktor/repos/AudioInterface/third_party/libsndfile/src/G72x/g72x.h
+
+/home/viktor/repos/AudioInterface/third_party/libsndfile/src/G72x/g72x_priv.h
+
+/home/viktor/repos/AudioInterface/third_party/libsndfile/src/G72x/g72x_test.c
+sfconfig.h
+/home/viktor/repos/AudioInterface/third_party/libsndfile/src/G72x/sfconfig.h
+stdio.h
+-
+unistd.h
+-
+sf_unistd.h
+/home/viktor/repos/AudioInterface/third_party/libsndfile/src/G72x/sf_unistd.h
+stdlib.h
+-
+string.h
+-
+math.h
+-
+g72x.h
+/home/viktor/repos/AudioInterface/third_party/libsndfile/src/G72x/g72x.h
+g72x_priv.h
+/home/viktor/repos/AudioInterface/third_party/libsndfile/src/G72x/g72x_priv.h
+
+third_party/libsndfile/src/config.h
+

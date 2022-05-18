@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9 -g  -rdynamic CMakeFiles/openal-info.dir/utils/openal-info.c.o  -o openal-info  -Wl,-rpath,/home/viktor/repos/AudioInterface/build/third_party/openal-soft: -pthread libopenal.so.1.22.0 

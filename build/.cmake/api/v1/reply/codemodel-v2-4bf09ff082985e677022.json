@@ -1,0 +1,365 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/audio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/audio"
+				},
+				{
+					"build" : "third_party",
+					"childIndexes" : 
+					[
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party"
+				},
+				{
+					"build" : "third_party/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "third_party/glm",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "third_party/glm/glm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "third_party/glm/glm"
+				},
+				{
+					"build" : "third_party/openal-soft",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "third_party/openal-soft",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "third_party/openal-soft/utils/alsoft-config",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "third_party/openal-soft/utils/alsoft-config"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "AUDIO_INTERFACE",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "OpenAL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "alsoft-config",
+					"parentIndex" : 2
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "OpenAL::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-OpenAL-Debug-ed3effc51befe1c0be1f.json",
+					"name" : "OpenAL",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alconvolve::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alconvolve-Debug-4e6d3a438a90594bcd5f.json",
+					"name" : "alconvolve",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alhrtf::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alhrtf-Debug-e36d3632a53127e832b5.json",
+					"name" : "alhrtf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "allatency::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-allatency-Debug-78f9fe980538c18ebf4a.json",
+					"name" : "allatency",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "almultireverb::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-almultireverb-Debug-0c6aa2cfb20e91d86525.json",
+					"name" : "almultireverb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alplay::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alplay-Debug-c4ca06f14fcfa0f9734f.json",
+					"name" : "alplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alrecord::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alrecord-Debug-46793361ca8a22eff316.json",
+					"name" : "alrecord",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alreverb::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alreverb-Debug-8a5673de6ec8d3f6f7d2.json",
+					"name" : "alreverb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alstream::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alstream-Debug-28df7691bf1c8453df7d.json",
+					"name" : "alstream",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alstreamcb::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alstreamcb-Debug-dfff20ee06ba1ad7930d.json",
+					"name" : "alstreamcb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "altonegen::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-altonegen-Debug-c816a26e5a6181735506.json",
+					"name" : "altonegen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio-Debug-d154cefd0fb00ab68206.json",
+					"name" : "audio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "build_version::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-build_version-Debug-5ccb0978121ee148c866.json",
+					"name" : "build_version",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "common::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-common-Debug-6aec628dbe3d39f4448f.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ex-common::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-ex-common-Debug-3b3e3ea8cb8204f9941d.json",
+					"name" : "ex-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "openal-info::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-openal-info-Debug-bbf59f90eee531d3bb67.json",
+					"name" : "openal-info",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "uhjdecoder::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-uhjdecoder-Debug-fc25733111a8417be7c3.json",
+					"name" : "uhjdecoder",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "uhjencoder::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-uhjencoder-Debug-162399ab6f53efc9ba79.json",
+					"name" : "uhjencoder",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@6e1c74099b051ba4e0da",
+					"jsonFile" : "target-uninstall-Debug-1b7c742417233af39b51.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/viktor/repos/AudioInterface/build",
+		"source" : "/home/viktor/repos/AudioInterface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
