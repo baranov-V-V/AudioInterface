@@ -22,6 +22,7 @@ add_subdirectory(third_party)
 target_link_libraries(audio PUBLIC
     glm
     OpenAL::OpenAL
+    vorbisfile
   )
 
 

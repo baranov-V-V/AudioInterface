@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/viktor/repos/AudioInterface/build/third_party/glm/cmake_install.cmake")
   include("/home/viktor/repos/AudioInterface/build/third_party/openal-soft/cmake_install.cmake")
+  include("/home/viktor/repos/AudioInterface/build/third_party/vorbis/cmake_install.cmake")
 
 endif()
 

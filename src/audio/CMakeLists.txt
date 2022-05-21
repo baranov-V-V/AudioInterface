@@ -9,6 +9,7 @@ target_sources(audio
     ${AUDIO_INCLUDE_DIR}/AudioSource.h
     ${AUDIO_INCLUDE_DIR}/SoundUtils.h
     ${AUDIO_INCLUDE_DIR}/SourcePool.h
+    ${AUDIO_INCLUDE_DIR}/OggFile.h
   PRIVATE
     ${AUDIO_SOURCE_DIR}/AudioBuffer.cpp
     ${AUDIO_SOURCE_DIR}/AudioContext.cpp
@@ -16,4 +17,5 @@ target_sources(audio
     ${AUDIO_SOURCE_DIR}/AudioSource.cpp
     ${AUDIO_SOURCE_DIR}/SoundUtils.cpp
     ${AUDIO_SOURCE_DIR}/SourcePool.cpp
+    ${AUDIO_SOURCE_DIR}/OggFile.cpp
   )

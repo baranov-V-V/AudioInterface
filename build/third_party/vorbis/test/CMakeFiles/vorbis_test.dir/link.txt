@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9 -g  -rdynamic CMakeFiles/vorbis_test.dir/util.c.o CMakeFiles/vorbis_test.dir/write_read.c.o CMakeFiles/vorbis_test.dir/test.c.o  -o vorbis_test  ../lib/libvorbisenc.a -lm ../lib/libvorbis.a -lm /usr/lib/x86_64-linux-gnu/libogg.so 

@@ -1,0 +1,2 @@
+/bin/ar qc libvorbisfile.a  CMakeFiles/vorbisfile.dir/vorbisfile.c.o
+/bin/ranlib libvorbisfile.a

@@ -3,15 +3,19 @@
 
 CMakeFiles/audio.dir/src/audio/AudioBuffer.cpp.o
  ../include/audio/AudioBuffer.h
+ ../include/audio/OggFile.h
  ../third_party/openal-soft/include/AL/al.h
  ../third_party/openal-soft/include/AL/alc.h
  ../third_party/openal-soft/include/AL/alext.h
  ../third_party/openal-soft/include/AL/efx.h
+ ../third_party/vorbis/include/vorbis/codec.h
+ ../third_party/vorbis/include/vorbis/vorbisfile.h
  /home/viktor/repos/AudioInterface/src/audio/AudioBuffer.cpp
 CMakeFiles/audio.dir/src/audio/AudioContext.cpp.o
  ../include/audio/AudioBuffer.h
  ../include/audio/AudioContext.h
  ../include/audio/AudioSource.h
+ ../include/audio/OggFile.h
  ../include/audio/SourcePool.h
  ../third_party/glm/glm/detail/_swizzle.hpp
  ../third_party/glm/glm/detail/_swizzle_func.hpp
@@ -37,12 +41,15 @@ CMakeFiles/audio.dir/src/audio/AudioContext.cpp.o
  ../third_party/glm/glm/vec3.hpp
  ../third_party/openal-soft/include/AL/al.h
  ../third_party/openal-soft/include/AL/alc.h
+ ../third_party/vorbis/include/vorbis/codec.h
+ ../third_party/vorbis/include/vorbis/vorbisfile.h
  /home/viktor/repos/AudioInterface/src/audio/AudioContext.cpp
 CMakeFiles/audio.dir/src/audio/AudioDevice.cpp.o
  ../include/audio/AudioBuffer.h
  ../include/audio/AudioContext.h
  ../include/audio/AudioDevice.h
  ../include/audio/AudioSource.h
+ ../include/audio/OggFile.h
  ../include/audio/SourcePool.h
  ../third_party/glm/glm/detail/_swizzle.hpp
  ../third_party/glm/glm/detail/_swizzle_func.hpp
@@ -68,28 +75,42 @@ CMakeFiles/audio.dir/src/audio/AudioDevice.cpp.o
  ../third_party/glm/glm/vec3.hpp
  ../third_party/openal-soft/include/AL/al.h
  ../third_party/openal-soft/include/AL/alc.h
+ ../third_party/vorbis/include/vorbis/codec.h
+ ../third_party/vorbis/include/vorbis/vorbisfile.h
  /home/viktor/repos/AudioInterface/src/audio/AudioDevice.cpp
 CMakeFiles/audio.dir/src/audio/AudioSource.cpp.o
  ../include/audio/AudioBuffer.h
  ../include/audio/AudioSource.h
+ ../include/audio/OggFile.h
  ../third_party/openal-soft/include/AL/al.h
  ../third_party/openal-soft/include/AL/alc.h
+ ../third_party/vorbis/include/vorbis/codec.h
+ ../third_party/vorbis/include/vorbis/vorbisfile.h
  /home/viktor/repos/AudioInterface/src/audio/AudioSource.cpp
+CMakeFiles/audio.dir/src/audio/OggFile.cpp.o
+ ../include/audio/OggFile.h
+ ../third_party/vorbis/include/vorbis/codec.h
+ ../third_party/vorbis/include/vorbis/vorbisfile.h
+ /home/viktor/repos/AudioInterface/src/audio/OggFile.cpp
 CMakeFiles/audio.dir/src/audio/SoundUtils.cpp.o
  ../include/audio/SoundUtils.h
  /home/viktor/repos/AudioInterface/src/audio/SoundUtils.cpp
 CMakeFiles/audio.dir/src/audio/SourcePool.cpp.o
  ../include/audio/AudioBuffer.h
  ../include/audio/AudioSource.h
+ ../include/audio/OggFile.h
  ../include/audio/SourcePool.h
  ../third_party/openal-soft/include/AL/al.h
  ../third_party/openal-soft/include/AL/alc.h
+ ../third_party/vorbis/include/vorbis/codec.h
+ ../third_party/vorbis/include/vorbis/vorbisfile.h
  /home/viktor/repos/AudioInterface/src/audio/SourcePool.cpp
 CMakeFiles/audio.dir/src/main.cpp.o
  ../include/audio/AudioBuffer.h
  ../include/audio/AudioContext.h
  ../include/audio/AudioDevice.h
  ../include/audio/AudioSource.h
+ ../include/audio/OggFile.h
  ../include/audio/SourcePool.h
  ../third_party/glm/glm/detail/_swizzle.hpp
  ../third_party/glm/glm/detail/_swizzle_func.hpp
@@ -115,4 +136,6 @@ CMakeFiles/audio.dir/src/main.cpp.o
  ../third_party/glm/glm/vec3.hpp
  ../third_party/openal-soft/include/AL/al.h
  ../third_party/openal-soft/include/AL/alc.h
+ ../third_party/vorbis/include/vorbis/codec.h
+ ../third_party/vorbis/include/vorbis/vorbisfile.h
  /home/viktor/repos/AudioInterface/src/main.cpp

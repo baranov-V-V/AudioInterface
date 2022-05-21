@@ -5,11 +5,19 @@
 #include <cassert>
 #include <filesystem>
 #include <iostream>
+#include <cstdio>
+#include <vector>
+#include <memory>
+#include <cstring>
 
 #include <unistd.h>
 
+#include "audio/OggFile.h"
+
 using namespace sound;
 namespace fs = std::filesystem;
+
+
 
 int main() {
 	ALCdevice* device_ = alcOpenDevice(nullptr);
@@ -29,7 +37,10 @@ int main() {
 	//assert(f != nullptr);
 
 	//std::cout << "Current path is " << fs::current_path() << '\n';
-	AudioBuffer* buffer = new AudioBuffer("helloworld.wav");
+	RawAudioData raw_data = LoadOgg("5.ogg");
+
+	AudioBuffer* buffer = new AudioBuffer(std::move(raw_data));
+
 	//sound::Source source;
 	//source.SetBuf(buffer);
 	//source.Play();

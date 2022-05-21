@@ -153,6 +153,39 @@ namespace sound {
 		//std::cout << alutGetErrorString(alutGetError()) << "\n";
 	}
 
+    AudioBuffer::AudioBuffer(RawAudioData&& raw_data) : buffer_handle_(0) {
+		alGetError();
+        alGenBuffers(1, &buffer_handle_);
+		if (alGetError() != AL_NO_ERROR) {
+			throw std::runtime_error("Can not generate buffer");
+		}
+
+		ALenum format = AL_NONE;
+		if (raw_data.channels_count_ == 1) {
+			format = AL_FORMAT_MONO16;
+		}
+		else if (raw_data.channels_count_ == 2) {
+			format = AL_FORMAT_STEREO16;
+		}
+		else if (raw_data.channels_count_ == 3) {
+			format = AL_FORMAT_BFORMAT2D_16;
+		}
+		else if (raw_data.channels_count_ == 4) {
+			format = AL_FORMAT_BFORMAT3D_16;
+		}
+
+		alGetError();
+		alBufferData(buffer_handle_, format, raw_data.data_, raw_data.data_size_, raw_data.sample_rate_);
+
+        ALenum error = alGetError();
+		if (error != AL_NO_ERROR) {
+            std::cout << error << "\n";
+			throw std::runtime_error("Can not fill buffer");
+		}
+
+        raw_data.data_ = nullptr;
+    };
+
 	AudioBuffer::~AudioBuffer() {
 		alDeleteBuffers(1, &buffer_handle_);
 	}

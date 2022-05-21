@@ -1,38 +1,43 @@
 [
 {
   "directory": "/home/viktor/repos/AudioInterface/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/main.cpp.o -c /home/viktor/repos/AudioInterface/src/main.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/main.cpp.o -c /home/viktor/repos/AudioInterface/src/main.cpp",
   "file": "/home/viktor/repos/AudioInterface/src/main.cpp"
 },
 {
   "directory": "/home/viktor/repos/AudioInterface/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioBuffer.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioBuffer.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioBuffer.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioBuffer.cpp",
   "file": "/home/viktor/repos/AudioInterface/src/audio/AudioBuffer.cpp"
 },
 {
   "directory": "/home/viktor/repos/AudioInterface/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioContext.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioContext.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioContext.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioContext.cpp",
   "file": "/home/viktor/repos/AudioInterface/src/audio/AudioContext.cpp"
 },
 {
   "directory": "/home/viktor/repos/AudioInterface/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioDevice.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioDevice.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioDevice.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioDevice.cpp",
   "file": "/home/viktor/repos/AudioInterface/src/audio/AudioDevice.cpp"
 },
 {
   "directory": "/home/viktor/repos/AudioInterface/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioSource.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioSource.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/AudioSource.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/AudioSource.cpp",
   "file": "/home/viktor/repos/AudioInterface/src/audio/AudioSource.cpp"
 },
 {
   "directory": "/home/viktor/repos/AudioInterface/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/SoundUtils.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/SoundUtils.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/SoundUtils.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/SoundUtils.cpp",
   "file": "/home/viktor/repos/AudioInterface/src/audio/SoundUtils.cpp"
 },
 {
   "directory": "/home/viktor/repos/AudioInterface/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/SourcePool.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/SourcePool.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/SourcePool.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/SourcePool.cpp",
   "file": "/home/viktor/repos/AudioInterface/src/audio/SourcePool.cpp"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/viktor/repos/AudioInterface/include -I/home/viktor/repos/AudioInterface/third_party/glm -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -std=c++17 -g -g   -o CMakeFiles/audio.dir/src/audio/OggFile.cpp.o -c /home/viktor/repos/AudioInterface/src/audio/OggFile.cpp",
+  "file": "/home/viktor/repos/AudioInterface/src/audio/OggFile.cpp"
 },
 {
   "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
@@ -563,5 +568,130 @@
   "directory": "/home/viktor/repos/AudioInterface/build/third_party/openal-soft",
   "command": "/bin/x86_64-linux-gnu-gcc-9 -DRESTRICT=__restrict -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include/AL  -g   -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -fno-math-errno -fvisibility=hidden -pthread -std=gnu11 -o CMakeFiles/alrecord.dir/examples/alrecord.c.o   -c /home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alrecord.c",
   "file": "/home/viktor/repos/AudioInterface/third_party/openal-soft/examples/alrecord.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbisenc.dir/vorbisenc.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/vorbisenc.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/vorbisenc.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -g   -o CMakeFiles/vorbisfile.dir/vorbisfile.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/vorbisfile.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/vorbisfile.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/mdct.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/mdct.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/mdct.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/smallft.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/smallft.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/smallft.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/block.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/block.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/block.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/envelope.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/envelope.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/envelope.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/window.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/window.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/window.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/lsp.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/lsp.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/lsp.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/lpc.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/lpc.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/lpc.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/analysis.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/analysis.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/analysis.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/synthesis.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/synthesis.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/synthesis.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/psy.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/psy.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/psy.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/info.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/info.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/info.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/floor1.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/floor1.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/floor1.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/floor0.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/floor0.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/floor0.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/res0.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/res0.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/res0.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/mapping0.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/mapping0.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/mapping0.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/registry.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/registry.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/registry.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/codebook.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/codebook.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/codebook.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/sharedbook.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/sharedbook.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/sharedbook.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/lookup.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/lookup.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/lookup.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/lib",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include -I/home/viktor/repos/AudioInterface/third_party/vorbis/lib  -g   -o CMakeFiles/vorbis.dir/bitrate.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/lib/bitrate.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/lib/bitrate.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/test",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -g   -o CMakeFiles/vorbis_test.dir/util.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/test/util.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/test/util.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/test",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -g   -o CMakeFiles/vorbis_test.dir/write_read.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/test/write_read.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/test/write_read.c"
+},
+{
+  "directory": "/home/viktor/repos/AudioInterface/build/third_party/vorbis/test",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/viktor/repos/AudioInterface/third_party/vorbis/include  -g   -o CMakeFiles/vorbis_test.dir/test.c.o   -c /home/viktor/repos/AudioInterface/third_party/vorbis/test/test.c",
+  "file": "/home/viktor/repos/AudioInterface/third_party/vorbis/test/test.c"
 }
 ]

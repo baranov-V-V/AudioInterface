@@ -4,6 +4,8 @@
 #include <AL/alc.h>
 #include <AL/alut.h>
 
+#include "audio/OggFile.h"
+
 class Source;
 
 namespace sound {
@@ -13,6 +15,8 @@ namespace sound {
 		friend class Source;
 
 		AudioBuffer(const char* filename);
+		AudioBuffer(RawAudioData&& raw_data);
+
 		virtual ~AudioBuffer();
 	
 	public:
