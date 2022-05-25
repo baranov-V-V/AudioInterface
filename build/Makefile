@@ -205,6 +205,19 @@ uninstall/fast:
 .PHONY : uninstall/fast
 
 #=============================================================================
+# Target rules for targets named alloopback
+
+# Build rule for target.
+alloopback: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 alloopback
+.PHONY : alloopback
+
+# fast build rule for target.
+alloopback/fast:
+	$(MAKE) -f third_party/openal-soft/CMakeFiles/alloopback.dir/build.make third_party/openal-soft/CMakeFiles/alloopback.dir/build
+.PHONY : alloopback/fast
+
+#=============================================================================
 # Target rules for targets named alstreamcb
 
 # Build rule for target.
@@ -1073,6 +1086,7 @@ help:
 	@echo "... package"
 	@echo "... audio"
 	@echo "... uninstall"
+	@echo "... alloopback"
 	@echo "... alstreamcb"
 	@echo "... allatency"
 	@echo "... uhjencoder"

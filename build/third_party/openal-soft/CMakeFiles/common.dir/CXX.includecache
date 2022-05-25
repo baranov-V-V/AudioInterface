@@ -192,22 +192,6 @@ cstdint
 utility
 -
 
-/home/viktor/repos/AudioInterface/third_party/openal-soft/common/polyphase_resampler.cpp
-polyphase_resampler.h
-/home/viktor/repos/AudioInterface/third_party/openal-soft/common/polyphase_resampler.h
-algorithm
--
-cmath
--
-alnumbers.h
-/home/viktor/repos/AudioInterface/third_party/openal-soft/common/alnumbers.h
-opthelpers.h
-/home/viktor/repos/AudioInterface/third_party/openal-soft/common/opthelpers.h
-
-/home/viktor/repos/AudioInterface/third_party/openal-soft/common/polyphase_resampler.h
-vector
--
-
 /home/viktor/repos/AudioInterface/third_party/openal-soft/common/pragmadefs.h
 
 /home/viktor/repos/AudioInterface/third_party/openal-soft/common/ringbuffer.cpp

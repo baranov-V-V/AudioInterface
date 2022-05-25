@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++17 -g -g -fPIC   -Winline -Wunused -Wall -Wextra -Wshadow -W
 
 CXX_DEFINES = -DALC_API="__attribute__((visibility(\"protected\")))" -DAL_ALEXT_PROTOTYPES -DAL_API="__attribute__((visibility(\"protected\")))" -DAL_BUILD_LIBRARY -DOpenAL_EXPORTS -DRESTRICT=__restrict
 
-CXX_INCLUDES = -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common 
+CXX_INCLUDES = -I/home/viktor/repos/AudioInterface/third_party/openal-soft/include -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/home/viktor/repos/AudioInterface/build/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft -I/home/viktor/repos/AudioInterface/third_party/openal-soft/common 
 

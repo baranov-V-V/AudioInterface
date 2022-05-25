@@ -19,7 +19,32 @@ struct RawAudioData {
 	RawAudioData() = default;
 	~RawAudioData() = default;
 	RawAudioData(const RawAudioData&) = delete;
-	RawAudioData(RawAudioData&&) noexcept = default;
+	RawAudioData(RawAudioData&& raw_data) noexcept {
+		data_ = raw_data.data_;
+		channels_count_ = raw_data.channels_count_;
+		sample_rate_ = raw_data.sample_rate_;
+		bits_per_sample = raw_data.bits_per_sample;
+		data_size_ = raw_data.data_size_;
+
+		raw_data.data_ = nullptr;
+
+		std::cout << "moved raw_data\n";
+	};
+
+	void operator=(const RawAudioData&) = delete;
+
+	void operator=(RawAudioData&& raw_data) {
+		data_ = raw_data.data_;
+		channels_count_ = raw_data.channels_count_;
+		sample_rate_ = raw_data.sample_rate_;
+		bits_per_sample = raw_data.bits_per_sample;
+		data_size_ = raw_data.data_size_;
+
+		raw_data.data_ = nullptr;
+
+		std::cout << "moved= raw_data\n";
+	};
+
 
 	int channels_count_;
 	int sample_rate_;

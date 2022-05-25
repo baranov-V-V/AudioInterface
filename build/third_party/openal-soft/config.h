@@ -17,7 +17,7 @@
 #define HAVE_GETOPT
 
 /* Define if we have DBus/RTKit */
-/* #undef HAVE_RTKIT */
+#define HAVE_RTKIT
 
 /* Define if we have SSE CPU extensions */
 #define HAVE_SSE
@@ -41,7 +41,7 @@
 /* #undef HAVE_SOLARIS */
 
 /* Define if we have the SndIO backend */
-/* #undef HAVE_SNDIO */
+#define HAVE_SNDIO
 
 /* Define if we have the WASAPI backend */
 /* #undef HAVE_WASAPI */

@@ -38,6 +38,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/null.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/null.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/oss.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/oss.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/pulseaudio.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o"
+  "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/sndio.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/wave.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/context.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/context.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/alc/device.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/device.cpp.o"
@@ -65,6 +66,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/context.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/context.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/converter.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/converter.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/cpu_caps.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o"
+  "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/dbus_wrap.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/devformat.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/devformat.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/device.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/device.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/effectslot.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/effectslot.cpp.o"
@@ -84,6 +86,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse2.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse3.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse41.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o"
+  "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/rtkit.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/uhjfilter.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/uiddefs.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o"
   "/home/viktor/repos/AudioInterface/third_party/openal-soft/core/voice.cpp" "/home/viktor/repos/AudioInterface/build/third_party/openal-soft/CMakeFiles/OpenAL.dir/core/voice.cpp.o"
@@ -103,6 +106,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../third_party/openal-soft/include"
+  "/usr/include/dbus-1.0"
+  "/usr/lib/x86_64-linux-gnu/dbus-1.0/include"
   "third_party/openal-soft"
   "../third_party/openal-soft"
   "../third_party/openal-soft/common"

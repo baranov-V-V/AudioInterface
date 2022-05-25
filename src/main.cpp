@@ -25,6 +25,7 @@ int main() {
 	alcMakeContextCurrent(context_);
 	ALuint source_;
 	alGenSources(1, &source_);
+	std::cout << "source: " << source_ << "\n";
 	std::cout << "hello audio!\n";
 
 	//AudioDevice device;

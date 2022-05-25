@@ -1240,6 +1240,34 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o
  /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/pulseaudio.cpp
  /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/pulseaudio.h
  third_party/openal-soft/config.h
+third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o
+ ../third_party/openal-soft/common/albyte.h
+ ../third_party/openal-soft/common/almalloc.h
+ ../third_party/openal-soft/common/alnumeric.h
+ ../third_party/openal-soft/common/alspan.h
+ ../third_party/openal-soft/common/atomic.h
+ ../third_party/openal-soft/common/intrusive_ptr.h
+ ../third_party/openal-soft/common/opthelpers.h
+ ../third_party/openal-soft/common/pragmadefs.h
+ ../third_party/openal-soft/common/ringbuffer.h
+ ../third_party/openal-soft/common/threads.h
+ ../third_party/openal-soft/common/vector.h
+ ../third_party/openal-soft/core/ambidefs.h
+ ../third_party/openal-soft/core/bufferline.h
+ ../third_party/openal-soft/core/devformat.h
+ ../third_party/openal-soft/core/device.h
+ ../third_party/openal-soft/core/except.h
+ ../third_party/openal-soft/core/filters/nfc.h
+ ../third_party/openal-soft/core/filters/splitter.h
+ ../third_party/openal-soft/core/helpers.h
+ ../third_party/openal-soft/core/logging.h
+ ../third_party/openal-soft/core/mixer/hrtfdefs.h
+ ../third_party/openal-soft/core/resampler_limits.h
+ ../third_party/openal-soft/core/uhjfilter.h
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/base.h
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/sndio.cpp
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/sndio.h
+ third_party/openal-soft/config.h
 third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o
  ../third_party/openal-soft/alc/alconfig.h
  ../third_party/openal-soft/common/albit.h
@@ -1946,6 +1974,31 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/cpu_caps.cpp
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/cpu_caps.h
  third_party/openal-soft/config.h
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o
+ ../third_party/openal-soft/common/dynload.h
+ ../third_party/openal-soft/common/opthelpers.h
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/core/dbus_wrap.cpp
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/core/dbus_wrap.h
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/core/logging.h
+ /usr/include/dbus-1.0/dbus/dbus-address.h
+ /usr/include/dbus-1.0/dbus/dbus-bus.h
+ /usr/include/dbus-1.0/dbus/dbus-connection.h
+ /usr/include/dbus-1.0/dbus/dbus-errors.h
+ /usr/include/dbus-1.0/dbus/dbus-macros.h
+ /usr/include/dbus-1.0/dbus/dbus-memory.h
+ /usr/include/dbus-1.0/dbus/dbus-message.h
+ /usr/include/dbus-1.0/dbus/dbus-misc.h
+ /usr/include/dbus-1.0/dbus/dbus-pending-call.h
+ /usr/include/dbus-1.0/dbus/dbus-protocol.h
+ /usr/include/dbus-1.0/dbus/dbus-server.h
+ /usr/include/dbus-1.0/dbus/dbus-shared.h
+ /usr/include/dbus-1.0/dbus/dbus-signature.h
+ /usr/include/dbus-1.0/dbus/dbus-syntax.h
+ /usr/include/dbus-1.0/dbus/dbus-threads.h
+ /usr/include/dbus-1.0/dbus/dbus-types.h
+ /usr/include/dbus-1.0/dbus/dbus.h
+ /usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h
+ third_party/openal-soft/config.h
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/devformat.cpp.o
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/devformat.cpp
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/devformat.h
@@ -2064,6 +2117,24 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/helpers.cpp.o
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/helpers.h
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/logging.h
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/rtkit.h
+ /usr/include/dbus-1.0/dbus/dbus-address.h
+ /usr/include/dbus-1.0/dbus/dbus-bus.h
+ /usr/include/dbus-1.0/dbus/dbus-connection.h
+ /usr/include/dbus-1.0/dbus/dbus-errors.h
+ /usr/include/dbus-1.0/dbus/dbus-macros.h
+ /usr/include/dbus-1.0/dbus/dbus-memory.h
+ /usr/include/dbus-1.0/dbus/dbus-message.h
+ /usr/include/dbus-1.0/dbus/dbus-misc.h
+ /usr/include/dbus-1.0/dbus/dbus-pending-call.h
+ /usr/include/dbus-1.0/dbus/dbus-protocol.h
+ /usr/include/dbus-1.0/dbus/dbus-server.h
+ /usr/include/dbus-1.0/dbus/dbus-shared.h
+ /usr/include/dbus-1.0/dbus/dbus-signature.h
+ /usr/include/dbus-1.0/dbus/dbus-syntax.h
+ /usr/include/dbus-1.0/dbus/dbus-threads.h
+ /usr/include/dbus-1.0/dbus/dbus-types.h
+ /usr/include/dbus-1.0/dbus/dbus.h
+ /usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h
  third_party/openal-soft/config.h
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/hrtf.cpp.o
  ../third_party/openal-soft/common/albit.h
@@ -2190,6 +2261,30 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o
  ../third_party/openal-soft/core/resampler_limits.h
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/defs.h
  /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse41.cpp
+ third_party/openal-soft/config.h
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.o
+ ../third_party/openal-soft/common/dynload.h
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/core/dbus_wrap.h
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/core/rtkit.cpp
+ /home/viktor/repos/AudioInterface/third_party/openal-soft/core/rtkit.h
+ /usr/include/dbus-1.0/dbus/dbus-address.h
+ /usr/include/dbus-1.0/dbus/dbus-bus.h
+ /usr/include/dbus-1.0/dbus/dbus-connection.h
+ /usr/include/dbus-1.0/dbus/dbus-errors.h
+ /usr/include/dbus-1.0/dbus/dbus-macros.h
+ /usr/include/dbus-1.0/dbus/dbus-memory.h
+ /usr/include/dbus-1.0/dbus/dbus-message.h
+ /usr/include/dbus-1.0/dbus/dbus-misc.h
+ /usr/include/dbus-1.0/dbus/dbus-pending-call.h
+ /usr/include/dbus-1.0/dbus/dbus-protocol.h
+ /usr/include/dbus-1.0/dbus/dbus-server.h
+ /usr/include/dbus-1.0/dbus/dbus-shared.h
+ /usr/include/dbus-1.0/dbus/dbus-signature.h
+ /usr/include/dbus-1.0/dbus/dbus-syntax.h
+ /usr/include/dbus-1.0/dbus/dbus-threads.h
+ /usr/include/dbus-1.0/dbus/dbus-types.h
+ /usr/include/dbus-1.0/dbus/dbus.h
+ /usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h
  third_party/openal-soft/config.h
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o
  ../third_party/openal-soft/common/alcomplex.h

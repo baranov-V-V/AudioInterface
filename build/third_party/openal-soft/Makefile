@@ -66,28 +66,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
@@ -109,6 +87,28 @@ package: preinstall
 package/fast: package
 
 .PHONY : package/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -177,6 +177,21 @@ preinstall/fast:
 depend:
 	cd /home/viktor/repos/AudioInterface/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+third_party/openal-soft/CMakeFiles/alloopback.dir/rule:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/alloopback.dir/rule
+.PHONY : third_party/openal-soft/CMakeFiles/alloopback.dir/rule
+
+# Convenience name for target.
+alloopback: third_party/openal-soft/CMakeFiles/alloopback.dir/rule
+
+.PHONY : alloopback
+
+# fast build rule for target.
+alloopback/fast:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/alloopback.dir/build.make third_party/openal-soft/CMakeFiles/alloopback.dir/build
+.PHONY : alloopback/fast
 
 # Convenience name for target.
 third_party/openal-soft/CMakeFiles/alstreamcb.dir/rule:
@@ -1351,6 +1366,33 @@ alc/backends/pulseaudio.cpp.s:
 	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.s
 .PHONY : alc/backends/pulseaudio.cpp.s
 
+alc/backends/sndio.o: alc/backends/sndio.cpp.o
+
+.PHONY : alc/backends/sndio.o
+
+# target to build an object file
+alc/backends/sndio.cpp.o:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o
+.PHONY : alc/backends/sndio.cpp.o
+
+alc/backends/sndio.i: alc/backends/sndio.cpp.i
+
+.PHONY : alc/backends/sndio.i
+
+# target to preprocess a source file
+alc/backends/sndio.cpp.i:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.i
+.PHONY : alc/backends/sndio.cpp.i
+
+alc/backends/sndio.s: alc/backends/sndio.cpp.s
+
+.PHONY : alc/backends/sndio.s
+
+# target to generate assembly for a file
+alc/backends/sndio.cpp.s:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.s
+.PHONY : alc/backends/sndio.cpp.s
+
 alc/backends/wave.o: alc/backends/wave.cpp.o
 
 .PHONY : alc/backends/wave.o
@@ -2323,6 +2365,33 @@ core/cpu_caps.cpp.s:
 	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.s
 .PHONY : core/cpu_caps.cpp.s
 
+core/dbus_wrap.o: core/dbus_wrap.cpp.o
+
+.PHONY : core/dbus_wrap.o
+
+# target to build an object file
+core/dbus_wrap.cpp.o:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o
+.PHONY : core/dbus_wrap.cpp.o
+
+core/dbus_wrap.i: core/dbus_wrap.cpp.i
+
+.PHONY : core/dbus_wrap.i
+
+# target to preprocess a source file
+core/dbus_wrap.cpp.i:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.i
+.PHONY : core/dbus_wrap.cpp.i
+
+core/dbus_wrap.s: core/dbus_wrap.cpp.s
+
+.PHONY : core/dbus_wrap.s
+
+# target to generate assembly for a file
+core/dbus_wrap.cpp.s:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.s
+.PHONY : core/dbus_wrap.cpp.s
+
 core/devformat.o: core/devformat.cpp.o
 
 .PHONY : core/devformat.o
@@ -2836,6 +2905,33 @@ core/mixer/mixer_sse41.cpp.s:
 	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.s
 .PHONY : core/mixer/mixer_sse41.cpp.s
 
+core/rtkit.o: core/rtkit.cpp.o
+
+.PHONY : core/rtkit.o
+
+# target to build an object file
+core/rtkit.cpp.o:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.o
+.PHONY : core/rtkit.cpp.o
+
+core/rtkit.i: core/rtkit.cpp.i
+
+.PHONY : core/rtkit.i
+
+# target to preprocess a source file
+core/rtkit.cpp.i:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.i
+.PHONY : core/rtkit.cpp.i
+
+core/rtkit.s: core/rtkit.cpp.s
+
+.PHONY : core/rtkit.s
+
+# target to generate assembly for a file
+core/rtkit.cpp.s:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.s
+.PHONY : core/rtkit.cpp.s
+
 core/uhjfilter.o: core/uhjfilter.cpp.o
 
 .PHONY : core/uhjfilter.o
@@ -2997,6 +3093,33 @@ examples/allatency.s: examples/allatency.c.s
 examples/allatency.c.s:
 	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/allatency.dir/build.make third_party/openal-soft/CMakeFiles/allatency.dir/examples/allatency.c.s
 .PHONY : examples/allatency.c.s
+
+examples/alloopback.o: examples/alloopback.c.o
+
+.PHONY : examples/alloopback.o
+
+# target to build an object file
+examples/alloopback.c.o:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/alloopback.dir/build.make third_party/openal-soft/CMakeFiles/alloopback.dir/examples/alloopback.c.o
+.PHONY : examples/alloopback.c.o
+
+examples/alloopback.i: examples/alloopback.c.i
+
+.PHONY : examples/alloopback.i
+
+# target to preprocess a source file
+examples/alloopback.c.i:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/alloopback.dir/build.make third_party/openal-soft/CMakeFiles/alloopback.dir/examples/alloopback.c.i
+.PHONY : examples/alloopback.c.i
+
+examples/alloopback.s: examples/alloopback.c.s
+
+.PHONY : examples/alloopback.s
+
+# target to generate assembly for a file
+examples/alloopback.c.s:
+	cd /home/viktor/repos/AudioInterface/build && $(MAKE) -f third_party/openal-soft/CMakeFiles/alloopback.dir/build.make third_party/openal-soft/CMakeFiles/alloopback.dir/examples/alloopback.c.s
+.PHONY : examples/alloopback.c.s
 
 examples/almultireverb.o: examples/almultireverb.c.o
 
@@ -3302,10 +3425,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... package_source"
 	@echo "... package"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... alloopback"
 	@echo "... install/local"
 	@echo "... alstreamcb"
 	@echo "... allatency"
@@ -3428,6 +3552,9 @@ help:
 	@echo "... alc/backends/pulseaudio.o"
 	@echo "... alc/backends/pulseaudio.i"
 	@echo "... alc/backends/pulseaudio.s"
+	@echo "... alc/backends/sndio.o"
+	@echo "... alc/backends/sndio.i"
+	@echo "... alc/backends/sndio.s"
 	@echo "... alc/backends/wave.o"
 	@echo "... alc/backends/wave.i"
 	@echo "... alc/backends/wave.s"
@@ -3536,6 +3663,9 @@ help:
 	@echo "... core/cpu_caps.o"
 	@echo "... core/cpu_caps.i"
 	@echo "... core/cpu_caps.s"
+	@echo "... core/dbus_wrap.o"
+	@echo "... core/dbus_wrap.i"
+	@echo "... core/dbus_wrap.s"
 	@echo "... core/devformat.o"
 	@echo "... core/devformat.i"
 	@echo "... core/devformat.s"
@@ -3593,6 +3723,9 @@ help:
 	@echo "... core/mixer/mixer_sse41.o"
 	@echo "... core/mixer/mixer_sse41.i"
 	@echo "... core/mixer/mixer_sse41.s"
+	@echo "... core/rtkit.o"
+	@echo "... core/rtkit.i"
+	@echo "... core/rtkit.s"
 	@echo "... core/uhjfilter.o"
 	@echo "... core/uhjfilter.i"
 	@echo "... core/uhjfilter.s"
@@ -3611,6 +3744,9 @@ help:
 	@echo "... examples/allatency.o"
 	@echo "... examples/allatency.i"
 	@echo "... examples/allatency.s"
+	@echo "... examples/alloopback.o"
+	@echo "... examples/alloopback.i"
+	@echo "... examples/alloopback.s"
 	@echo "... examples/almultireverb.o"
 	@echo "... examples/almultireverb.i"
 	@echo "... examples/almultireverb.s"

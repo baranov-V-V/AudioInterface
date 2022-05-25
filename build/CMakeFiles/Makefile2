@@ -173,6 +173,7 @@ third_party/glm/glm/clean:
 # Directory level rules for directory third_party/openal-soft
 
 # Recursive "all" directory target.
+third_party/openal-soft/all: third_party/openal-soft/CMakeFiles/alloopback.dir/all
 third_party/openal-soft/all: third_party/openal-soft/CMakeFiles/alstreamcb.dir/all
 third_party/openal-soft/all: third_party/openal-soft/CMakeFiles/allatency.dir/all
 third_party/openal-soft/all: third_party/openal-soft/CMakeFiles/uhjencoder.dir/all
@@ -197,6 +198,7 @@ third_party/openal-soft/preinstall: third_party/openal-soft/utils/alsoft-config/
 .PHONY : third_party/openal-soft/preinstall
 
 # Recursive "clean" directory target.
+third_party/openal-soft/clean: third_party/openal-soft/CMakeFiles/alloopback.dir/clean
 third_party/openal-soft/clean: third_party/openal-soft/CMakeFiles/alstreamcb.dir/clean
 third_party/openal-soft/clean: third_party/openal-soft/CMakeFiles/allatency.dir/clean
 third_party/openal-soft/clean: third_party/openal-soft/CMakeFiles/uhjencoder.dir/clean
@@ -334,12 +336,12 @@ CMakeFiles/audio.dir/all: third_party/vorbis/lib/CMakeFiles/vorbisfile.dir/all
 CMakeFiles/audio.dir/all: third_party/vorbis/lib/CMakeFiles/vorbis.dir/all
 	$(MAKE) -f CMakeFiles/audio.dir/build.make CMakeFiles/audio.dir/depend
 	$(MAKE) -f CMakeFiles/audio.dir/build.make CMakeFiles/audio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=66,67,68,69,70 "Built target audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=67,68,69,70,71 "Built target audio"
 .PHONY : CMakeFiles/audio.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/audio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 80
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 79
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/audio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : CMakeFiles/audio.dir/rule
@@ -382,6 +384,34 @@ third_party/glm/CMakeFiles/uninstall.dir/clean:
 .PHONY : third_party/glm/CMakeFiles/uninstall.dir/clean
 
 #=============================================================================
+# Target rules for target third_party/openal-soft/CMakeFiles/alloopback.dir
+
+# All Build rule for target.
+third_party/openal-soft/CMakeFiles/alloopback.dir/all: third_party/openal-soft/CMakeFiles/ex-common.dir/all
+third_party/openal-soft/CMakeFiles/alloopback.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
+	$(MAKE) -f third_party/openal-soft/CMakeFiles/alloopback.dir/build.make third_party/openal-soft/CMakeFiles/alloopback.dir/depend
+	$(MAKE) -f third_party/openal-soft/CMakeFiles/alloopback.dir/build.make third_party/openal-soft/CMakeFiles/alloopback.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=57 "Built target alloopback"
+.PHONY : third_party/openal-soft/CMakeFiles/alloopback.dir/all
+
+# Build rule for subdir invocation for target.
+third_party/openal-soft/CMakeFiles/alloopback.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 61
+	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/alloopback.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
+.PHONY : third_party/openal-soft/CMakeFiles/alloopback.dir/rule
+
+# Convenience name for target.
+alloopback: third_party/openal-soft/CMakeFiles/alloopback.dir/rule
+
+.PHONY : alloopback
+
+# clean rule for target.
+third_party/openal-soft/CMakeFiles/alloopback.dir/clean:
+	$(MAKE) -f third_party/openal-soft/CMakeFiles/alloopback.dir/build.make third_party/openal-soft/CMakeFiles/alloopback.dir/clean
+.PHONY : third_party/openal-soft/CMakeFiles/alloopback.dir/clean
+
+#=============================================================================
 # Target rules for target third_party/openal-soft/CMakeFiles/alstreamcb.dir
 
 # All Build rule for target.
@@ -389,12 +419,12 @@ third_party/openal-soft/CMakeFiles/alstreamcb.dir/all: third_party/openal-soft/C
 third_party/openal-soft/CMakeFiles/alstreamcb.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alstreamcb.dir/build.make third_party/openal-soft/CMakeFiles/alstreamcb.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alstreamcb.dir/build.make third_party/openal-soft/CMakeFiles/alstreamcb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=63 "Built target alstreamcb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=64,65 "Built target alstreamcb"
 .PHONY : third_party/openal-soft/CMakeFiles/alstreamcb.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/alstreamcb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/alstreamcb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/alstreamcb.dir/rule
@@ -444,12 +474,12 @@ third_party/openal-soft/CMakeFiles/allatency.dir/clean:
 third_party/openal-soft/CMakeFiles/uhjencoder.dir/all: third_party/openal-soft/CMakeFiles/common.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/uhjencoder.dir/build.make third_party/openal-soft/CMakeFiles/uhjencoder.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/uhjencoder.dir/build.make third_party/openal-soft/CMakeFiles/uhjencoder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=81 "Built target uhjencoder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=82 "Built target uhjencoder"
 .PHONY : third_party/openal-soft/CMakeFiles/uhjencoder.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/uhjencoder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/uhjencoder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/uhjencoder.dir/rule
@@ -472,12 +502,12 @@ third_party/openal-soft/CMakeFiles/alplay.dir/all: third_party/openal-soft/CMake
 third_party/openal-soft/CMakeFiles/alplay.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alplay.dir/build.make third_party/openal-soft/CMakeFiles/alplay.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alplay.dir/build.make third_party/openal-soft/CMakeFiles/alplay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=58,59 "Built target alplay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=60 "Built target alplay"
 .PHONY : third_party/openal-soft/CMakeFiles/alplay.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/alplay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/alplay.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/alplay.dir/rule
@@ -499,12 +529,12 @@ third_party/openal-soft/CMakeFiles/alplay.dir/clean:
 third_party/openal-soft/CMakeFiles/common.dir/all:
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/common.dir/build.make third_party/openal-soft/CMakeFiles/common.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/common.dir/build.make third_party/openal-soft/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=71,72,73,74,75,76,77 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=72,73,74,75,76,77 "Built target common"
 .PHONY : third_party/openal-soft/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/common.dir/rule
@@ -554,12 +584,12 @@ third_party/openal-soft/CMakeFiles/alhrtf.dir/clean:
 third_party/openal-soft/CMakeFiles/openal-info.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/openal-info.dir/build.make third_party/openal-soft/CMakeFiles/openal-info.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/openal-info.dir/build.make third_party/openal-soft/CMakeFiles/openal-info.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=79 "Built target openal-info"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=79,80 "Built target openal-info"
 .PHONY : third_party/openal-soft/CMakeFiles/openal-info.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/openal-info.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/openal-info.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/openal-info.dir/rule
@@ -582,7 +612,7 @@ third_party/openal-soft/CMakeFiles/alstream.dir/all: third_party/openal-soft/CMa
 third_party/openal-soft/CMakeFiles/alstream.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alstream.dir/build.make third_party/openal-soft/CMakeFiles/alstream.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alstream.dir/build.make third_party/openal-soft/CMakeFiles/alstream.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=62 "Built target alstream"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=63 "Built target alstream"
 .PHONY : third_party/openal-soft/CMakeFiles/alstream.dir/all
 
 # Build rule for subdir invocation for target.
@@ -636,12 +666,12 @@ third_party/openal-soft/CMakeFiles/ex-common.dir/clean:
 third_party/openal-soft/CMakeFiles/uhjdecoder.dir/all: third_party/openal-soft/CMakeFiles/common.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/uhjdecoder.dir/build.make third_party/openal-soft/CMakeFiles/uhjdecoder.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/uhjdecoder.dir/build.make third_party/openal-soft/CMakeFiles/uhjdecoder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=80 "Built target uhjdecoder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=81 "Built target uhjdecoder"
 .PHONY : third_party/openal-soft/CMakeFiles/uhjdecoder.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/uhjdecoder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/uhjdecoder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/uhjdecoder.dir/rule
@@ -664,12 +694,12 @@ third_party/openal-soft/CMakeFiles/almultireverb.dir/all: third_party/openal-sof
 third_party/openal-soft/CMakeFiles/almultireverb.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/almultireverb.dir/build.make third_party/openal-soft/CMakeFiles/almultireverb.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/almultireverb.dir/build.make third_party/openal-soft/CMakeFiles/almultireverb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=57 "Built target almultireverb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=58,59 "Built target almultireverb"
 .PHONY : third_party/openal-soft/CMakeFiles/almultireverb.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/almultireverb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/almultireverb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/almultireverb.dir/rule
@@ -692,12 +722,12 @@ third_party/openal-soft/CMakeFiles/altonegen.dir/all: third_party/openal-soft/CM
 third_party/openal-soft/CMakeFiles/altonegen.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/altonegen.dir/build.make third_party/openal-soft/CMakeFiles/altonegen.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/altonegen.dir/build.make third_party/openal-soft/CMakeFiles/altonegen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=64,65 "Built target altonegen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=66 "Built target altonegen"
 .PHONY : third_party/openal-soft/CMakeFiles/altonegen.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/altonegen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/altonegen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/altonegen.dir/rule
@@ -721,12 +751,12 @@ third_party/openal-soft/CMakeFiles/alconvolve.dir/all: third_party/openal-soft/C
 third_party/openal-soft/CMakeFiles/alconvolve.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alconvolve.dir/build.make third_party/openal-soft/CMakeFiles/alconvolve.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alconvolve.dir/build.make third_party/openal-soft/CMakeFiles/alconvolve.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=53,54 "Built target alconvolve"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=54 "Built target alconvolve"
 .PHONY : third_party/openal-soft/CMakeFiles/alconvolve.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/openal-soft/CMakeFiles/alconvolve.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 62
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/openal-soft/CMakeFiles/alconvolve.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/openal-soft/CMakeFiles/alconvolve.dir/rule
@@ -749,7 +779,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/all: third_party/openal-soft/CMake
 third_party/openal-soft/CMakeFiles/OpenAL.dir/all: third_party/openal-soft/CMakeFiles/build_version.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make third_party/openal-soft/CMakeFiles/OpenAL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target OpenAL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53 "Built target OpenAL"
 .PHONY : third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 
 # Build rule for subdir invocation for target.
@@ -777,7 +807,7 @@ third_party/openal-soft/CMakeFiles/alreverb.dir/all: third_party/openal-soft/CMa
 third_party/openal-soft/CMakeFiles/alreverb.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alreverb.dir/build.make third_party/openal-soft/CMakeFiles/alreverb.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alreverb.dir/build.make third_party/openal-soft/CMakeFiles/alreverb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=61 "Built target alreverb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=62 "Built target alreverb"
 .PHONY : third_party/openal-soft/CMakeFiles/alreverb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -832,7 +862,7 @@ third_party/openal-soft/CMakeFiles/alrecord.dir/all: third_party/openal-soft/CMa
 third_party/openal-soft/CMakeFiles/alrecord.dir/all: third_party/openal-soft/CMakeFiles/OpenAL.dir/all
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alrecord.dir/build.make third_party/openal-soft/CMakeFiles/alrecord.dir/depend
 	$(MAKE) -f third_party/openal-soft/CMakeFiles/alrecord.dir/build.make third_party/openal-soft/CMakeFiles/alrecord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=60 "Built target alrecord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=61 "Built target alrecord"
 .PHONY : third_party/openal-soft/CMakeFiles/alrecord.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1620,7 +1650,7 @@ third_party/vorbis/lib/CMakeFiles/vorbisenc.dir/all: third_party/vorbis/lib/CMak
 
 # Build rule for subdir invocation for target.
 third_party/vorbis/lib/CMakeFiles/vorbisenc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/vorbis/lib/CMakeFiles/vorbisenc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/vorbis/lib/CMakeFiles/vorbisenc.dir/rule
@@ -1647,7 +1677,7 @@ third_party/vorbis/lib/CMakeFiles/vorbisfile.dir/all: third_party/vorbis/lib/CMa
 
 # Build rule for subdir invocation for target.
 third_party/vorbis/lib/CMakeFiles/vorbisfile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/vorbis/lib/CMakeFiles/vorbisfile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/vorbis/lib/CMakeFiles/vorbisfile.dir/rule
@@ -1669,12 +1699,12 @@ third_party/vorbis/lib/CMakeFiles/vorbisfile.dir/clean:
 third_party/vorbis/lib/CMakeFiles/vorbis.dir/all:
 	$(MAKE) -f third_party/vorbis/lib/CMakeFiles/vorbis.dir/build.make third_party/vorbis/lib/CMakeFiles/vorbis.dir/depend
 	$(MAKE) -f third_party/vorbis/lib/CMakeFiles/vorbis.dir/build.make third_party/vorbis/lib/CMakeFiles/vorbis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=82,83,84,85,86,87,88,89,90,91,92,93,94,95 "Built target vorbis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=83,84,85,86,87,88,89,90,91,92,93,94,95 "Built target vorbis"
 .PHONY : third_party/vorbis/lib/CMakeFiles/vorbis.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/vorbis/lib/CMakeFiles/vorbis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/vorbis/lib/CMakeFiles/vorbis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/vorbis/lib/CMakeFiles/vorbis.dir/rule
@@ -1702,7 +1732,7 @@ third_party/vorbis/test/CMakeFiles/vorbis_test.dir/all: third_party/vorbis/lib/C
 
 # Build rule for subdir invocation for target.
 third_party/vorbis/test/CMakeFiles/vorbis_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/vorbis/test/CMakeFiles/vorbis_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/viktor/repos/AudioInterface/build/CMakeFiles 0
 .PHONY : third_party/vorbis/test/CMakeFiles/vorbis_test.dir/rule

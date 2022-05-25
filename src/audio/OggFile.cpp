@@ -49,7 +49,7 @@ RawAudioData LoadOgg(const char* filename) {
 	std::vector<Chunk> chunked_audio;
 
 	//global constant
-	const size_t decode_chunk_capacity = 2048;
+	const size_t decode_chunk_capacity = 4096;
 	size_t decoded_data_size = 0;
 	
 	while(!eof) {

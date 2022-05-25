@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9 -g  -rdynamic CMakeFiles/alloopback.dir/examples/alloopback.c.o  -o alloopback  -Wl,-rpath,/home/viktor/repos/AudioInterface/build/third_party/openal-soft: -pthread -Wl,-Bstatic -lSDL2main -Wl,-Bdynamic -lSDL2 libex-common.a -lm libopenal.so.1.22.0 -lrt 

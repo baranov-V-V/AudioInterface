@@ -712,9 +712,22 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/oss.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenAL.dir/alc/backends/oss.cpp.s"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/oss.cpp -o CMakeFiles/OpenAL.dir/alc/backends/oss.cpp.s
 
+third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
+third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o: ../third_party/openal-soft/alc/backends/sndio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/sndio.cpp
+
+third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.i"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/sndio.cpp > CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.i
+
+third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.s"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/sndio.cpp -o CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.s
+
 third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o: ../third_party/openal-soft/alc/backends/pulseaudio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/pulseaudio.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.i: cmake_force
@@ -727,7 +740,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.s: cma
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o: ../third_party/openal-soft/alc/backends/wave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/alc/backends/wave.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.i: cmake_force
@@ -740,7 +753,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.s: cmake_for
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambdec.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambdec.cpp.o: ../third_party/openal-soft/core/ambdec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambdec.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambdec.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/ambdec.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/ambdec.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambdec.cpp.i: cmake_force
@@ -753,7 +766,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambdec.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o: ../third_party/openal-soft/core/ambidefs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/ambidefs.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/ambidefs.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.i: cmake_force
@@ -766,7 +779,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambidefs.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o: ../third_party/openal-soft/core/bformatdec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/bformatdec.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/bformatdec.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.i: cmake_force
@@ -779,7 +792,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bformatdec.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bs2b.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bs2b.cpp.o: ../third_party/openal-soft/core/bs2b.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bs2b.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bs2b.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/bs2b.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/bs2b.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bs2b.cpp.i: cmake_force
@@ -792,7 +805,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bs2b.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o: ../third_party/openal-soft/core/bsinc_tables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/bsinc_tables.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.i: cmake_force
@@ -805,7 +818,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/bsinc_tables.cpp.s: cmake_for
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.o: ../third_party/openal-soft/core/buffer_storage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/buffer_storage.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.i: cmake_force
@@ -818,7 +831,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/buffer_storage.cpp.s: cmake_f
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/context.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/context.cpp.o: ../third_party/openal-soft/core/context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/context.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/context.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/context.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/context.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/context.cpp.i: cmake_force
@@ -831,7 +844,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/context.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/converter.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/converter.cpp.o: ../third_party/openal-soft/core/converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/converter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/converter.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/converter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/converter.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/converter.cpp.i: cmake_force
@@ -844,7 +857,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/converter.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o: ../third_party/openal-soft/core/cpu_caps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/cpu_caps.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.i: cmake_force
@@ -857,7 +870,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/cpu_caps.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/devformat.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/devformat.cpp.o: ../third_party/openal-soft/core/devformat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/devformat.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/devformat.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/devformat.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/devformat.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/devformat.cpp.i: cmake_force
@@ -870,7 +883,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/devformat.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/device.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/device.cpp.o: ../third_party/openal-soft/core/device.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/device.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/device.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/device.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/device.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/device.cpp.i: cmake_force
@@ -883,7 +896,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/device.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/effectslot.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/effectslot.cpp.o: ../third_party/openal-soft/core/effectslot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/effectslot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/effectslot.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/effectslot.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/effectslot.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/effectslot.cpp.i: cmake_force
@@ -896,7 +909,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/effectslot.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/except.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/except.cpp.o: ../third_party/openal-soft/core/except.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/except.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/except.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/except.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/except.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/except.cpp.i: cmake_force
@@ -909,7 +922,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/except.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o: ../third_party/openal-soft/core/filters/biquad.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/biquad.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.i: cmake_force
@@ -922,7 +935,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/biquad.cpp.s: cmake_f
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o: ../third_party/openal-soft/core/filters/nfc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/nfc.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.i: cmake_force
@@ -935,7 +948,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/nfc.cpp.s: cmake_forc
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o: ../third_party/openal-soft/core/filters/splitter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/filters/splitter.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.i: cmake_force
@@ -948,7 +961,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/filters/splitter.cpp.s: cmake
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.o: ../third_party/openal-soft/core/fmt_traits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/fmt_traits.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.i: cmake_force
@@ -961,7 +974,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fmt_traits.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o: ../third_party/openal-soft/core/fpu_ctrl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/fpu_ctrl.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.i: cmake_force
@@ -974,7 +987,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/fpu_ctrl.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/helpers.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/helpers.cpp.o: ../third_party/openal-soft/core/helpers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/helpers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/helpers.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/helpers.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/helpers.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/helpers.cpp.i: cmake_force
@@ -987,7 +1000,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/helpers.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/hrtf.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/hrtf.cpp.o: ../third_party/openal-soft/core/hrtf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/hrtf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/hrtf.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/hrtf.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/hrtf.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/hrtf.cpp.i: cmake_force
@@ -1000,7 +1013,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/hrtf.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/logging.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/logging.cpp.o: ../third_party/openal-soft/core/logging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/logging.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/logging.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/logging.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/logging.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/logging.cpp.i: cmake_force
@@ -1013,7 +1026,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/logging.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mastering.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mastering.cpp.o: ../third_party/openal-soft/core/mastering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mastering.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mastering.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/mastering.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mastering.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mastering.cpp.i: cmake_force
@@ -1026,7 +1039,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mastering.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer.cpp.o: ../third_party/openal-soft/core/mixer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/mixer.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer.cpp.i: cmake_force
@@ -1039,7 +1052,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o: ../third_party/openal-soft/core/uhjfilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/uhjfilter.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.i: cmake_force
@@ -1052,7 +1065,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o: ../third_party/openal-soft/core/uiddefs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/uiddefs.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.i: cmake_force
@@ -1065,7 +1078,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.s: cmake_force
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/voice.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/voice.cpp.o: ../third_party/openal-soft/core/voice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/voice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/voice.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/voice.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/voice.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/voice.cpp.i: cmake_force
@@ -1076,9 +1089,35 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/voice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenAL.dir/core/voice.cpp.s"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viktor/repos/AudioInterface/third_party/openal-soft/core/voice.cpp -o CMakeFiles/OpenAL.dir/core/voice.cpp.s
 
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o: ../third_party/openal-soft/core/dbus_wrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/dbus_wrap.cpp
+
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.i"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viktor/repos/AudioInterface/third_party/openal-soft/core/dbus_wrap.cpp > CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.i
+
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.s"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viktor/repos/AudioInterface/third_party/openal-soft/core/dbus_wrap.cpp -o CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.s
+
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.o: ../third_party/openal-soft/core/rtkit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.o"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/rtkit.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/rtkit.cpp
+
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenAL.dir/core/rtkit.cpp.i"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viktor/repos/AudioInterface/third_party/openal-soft/core/rtkit.cpp > CMakeFiles/OpenAL.dir/core/rtkit.cpp.i
+
+third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenAL.dir/core/rtkit.cpp.s"
+	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viktor/repos/AudioInterface/third_party/openal-soft/core/rtkit.cpp -o CMakeFiles/OpenAL.dir/core/rtkit.cpp.s
+
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o: ../third_party/openal-soft/core/mixer/mixer_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_c.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.i: cmake_force
@@ -1091,7 +1130,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.s: cmake_fo
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o: ../third_party/openal-soft/core/mixer/mixer_sse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.i: cmake_force
@@ -1104,7 +1143,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.s: cmake_
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o: ../third_party/openal-soft/core/mixer/mixer_sse2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse2.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.i: cmake_force
@@ -1117,7 +1156,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.s: cmake
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.o: ../third_party/openal-soft/core/mixer/mixer_sse3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse3.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.i: cmake_force
@@ -1130,7 +1169,7 @@ third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse3.cpp.s: cmake
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o: third_party/openal-soft/CMakeFiles/OpenAL.dir/flags.make
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o: ../third_party/openal-soft/core/mixer/mixer_sse41.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o -c /home/viktor/repos/AudioInterface/third_party/openal-soft/core/mixer/mixer_sse41.cpp
 
 third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.i: cmake_force
@@ -1193,6 +1232,7 @@ OpenAL_OBJECTS = \
 "CMakeFiles/OpenAL.dir/alc/backends/null.cpp.o" \
 "CMakeFiles/OpenAL.dir/alc/backends/alsa.cpp.o" \
 "CMakeFiles/OpenAL.dir/alc/backends/oss.cpp.o" \
+"CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o" \
 "CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o" \
 "CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o" \
 "CMakeFiles/OpenAL.dir/core/ambdec.cpp.o" \
@@ -1221,6 +1261,8 @@ OpenAL_OBJECTS = \
 "CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o" \
 "CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o" \
 "CMakeFiles/OpenAL.dir/core/voice.cpp.o" \
+"CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o" \
+"CMakeFiles/OpenAL.dir/core/rtkit.cpp.o" \
 "CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o" \
 "CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o" \
 "CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o" \
@@ -1280,6 +1322,7 @@ third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/null.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/alsa.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/oss.cpp.o
+third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/sndio.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/pulseaudio.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/alc/backends/wave.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/ambdec.cpp.o
@@ -1308,6 +1351,8 @@ third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uhjfilter.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/uiddefs.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/voice.cpp.o
+third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/dbus_wrap.cpp.o
+third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/rtkit.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_c.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse2.cpp.o
@@ -1315,8 +1360,9 @@ third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/core/mixer/mixer_sse41.cpp.o
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/build.make
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/libcommon.a
+third_party/openal-soft/libopenal.so.1.22.0: /usr/lib/x86_64-linux-gnu/libsndio.so
 third_party/openal-soft/libopenal.so.1.22.0: third_party/openal-soft/CMakeFiles/OpenAL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Linking CXX shared library libopenal.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viktor/repos/AudioInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Linking CXX shared library libopenal.so"
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenAL.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/viktor/repos/AudioInterface/build/third_party/openal-soft && $(CMAKE_COMMAND) -E cmake_symlink_library libopenal.so.1.22.0 libopenal.so.1 libopenal.so
 

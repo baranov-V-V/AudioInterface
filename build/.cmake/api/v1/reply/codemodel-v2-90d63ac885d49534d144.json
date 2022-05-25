@@ -1,0 +1,723 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/audio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/audio"
+				},
+				{
+					"build" : "third_party",
+					"childIndexes" : 
+					[
+						4,
+						6,
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party"
+				},
+				{
+					"build" : "third_party/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "third_party/glm",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "third_party/glm/glm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "third_party/glm/glm"
+				},
+				{
+					"build" : "third_party/openal-soft",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "third_party/openal-soft",
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"build" : "third_party/openal-soft/utils/alsoft-config",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "third_party/openal-soft/utils/alsoft-config"
+				},
+				{
+					"build" : "third_party/vorbis",
+					"childIndexes" : 
+					[
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "third_party/vorbis",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					]
+				},
+				{
+					"build" : "third_party/vorbis/lib",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 4,
+					"source" : "third_party/vorbis/lib",
+					"targetIndexes" : 
+					[
+						48,
+						50,
+						51
+					]
+				},
+				{
+					"build" : "third_party/vorbis/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 4,
+					"source" : "third_party/vorbis/test",
+					"targetIndexes" : 
+					[
+						49
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "AUDIO_INTERFACE",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "OpenAL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "alsoft-config",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8,
+						9,
+						10
+					],
+					"name" : "vorbis",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						48,
+						49,
+						50,
+						51
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "Continuous::@f3484fa2a37608d84947",
+					"jsonFile" : "target-Continuous-Debug-b84468cfdd497b088d14.json",
+					"name" : "Continuous",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ContinuousBuild::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ContinuousBuild-Debug-dcedf63f3d050fa12416.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ContinuousConfigure::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ContinuousConfigure-Debug-6d35c6f3be9c74a4d431.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ContinuousCoverage::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ContinuousCoverage-Debug-7ea0b4a54f1214097a77.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ContinuousMemCheck::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-e29fd712947d3dce8ae0.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ContinuousStart::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ContinuousStart-Debug-a6abdcb5c2724cc7b0e2.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ContinuousSubmit::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ContinuousSubmit-Debug-f96c209514a57e42c840.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ContinuousTest::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ContinuousTest-Debug-70cff878ae69001a1d2e.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ContinuousUpdate::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ContinuousUpdate-Debug-0f2ce8d47c583a9d09d3.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Experimental::@f3484fa2a37608d84947",
+					"jsonFile" : "target-Experimental-Debug-65d2f2732572c4a70389.json",
+					"name" : "Experimental",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ExperimentalBuild::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ExperimentalBuild-Debug-dba930e093a5af083a3f.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ExperimentalConfigure::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-c93f4aba562ceebc9498.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ExperimentalCoverage::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-897a41d2bb3cde58b618.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ExperimentalMemCheck::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-25d7cebe4a94dcf02e47.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ExperimentalStart::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ExperimentalStart-Debug-0f28d1578fba8ed61e40.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ExperimentalSubmit::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-cb73b8205ad50771fe2f.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ExperimentalTest::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ExperimentalTest-Debug-569487110158092c0315.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ExperimentalUpdate::@f3484fa2a37608d84947",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-4584674612747d2a8f82.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Nightly::@f3484fa2a37608d84947",
+					"jsonFile" : "target-Nightly-Debug-52c1ee59ba6684bcfdae.json",
+					"name" : "Nightly",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlyBuild::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlyBuild-Debug-9c855a79fc98559e0bc7.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlyConfigure::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlyConfigure-Debug-691522e313154bb82f0a.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlyCoverage::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlyCoverage-Debug-f9611598ec601699d8ff.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlyMemCheck::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlyMemCheck-Debug-709589a41650eabd3a0a.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlyMemoryCheck::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-c1035d3113ec66068602.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlyStart::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlyStart-Debug-e7abda2a26609d15a437.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlySubmit::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlySubmit-Debug-217daf169d716d7fa924.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlyTest::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlyTest-Debug-cad1492d9f3a3d935db3.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "NightlyUpdate::@f3484fa2a37608d84947",
+					"jsonFile" : "target-NightlyUpdate-Debug-2c1f0dbe1d6ba4a48227.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "OpenAL::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-OpenAL-Debug-0237b202d60085b34982.json",
+					"name" : "OpenAL",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alconvolve::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alconvolve-Debug-4e6d3a438a90594bcd5f.json",
+					"name" : "alconvolve",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alhrtf::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alhrtf-Debug-e36d3632a53127e832b5.json",
+					"name" : "alhrtf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "allatency::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-allatency-Debug-78f9fe980538c18ebf4a.json",
+					"name" : "allatency",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alloopback::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alloopback-Debug-359480d40b51ae3dec04.json",
+					"name" : "alloopback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "almultireverb::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-almultireverb-Debug-0c6aa2cfb20e91d86525.json",
+					"name" : "almultireverb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alplay::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alplay-Debug-c4ca06f14fcfa0f9734f.json",
+					"name" : "alplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alrecord::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alrecord-Debug-46793361ca8a22eff316.json",
+					"name" : "alrecord",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alreverb::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alreverb-Debug-8a5673de6ec8d3f6f7d2.json",
+					"name" : "alreverb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alstream::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alstream-Debug-28df7691bf1c8453df7d.json",
+					"name" : "alstream",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "alstreamcb::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-alstreamcb-Debug-dfff20ee06ba1ad7930d.json",
+					"name" : "alstreamcb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "altonegen::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-altonegen-Debug-c816a26e5a6181735506.json",
+					"name" : "altonegen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio-Debug-33d34cf0ea7d670c9f7a.json",
+					"name" : "audio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "build_version::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-build_version-Debug-5ccb0978121ee148c866.json",
+					"name" : "build_version",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "common::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-common-Debug-6aec628dbe3d39f4448f.json",
+					"name" : "common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ex-common::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-ex-common-Debug-3b3e3ea8cb8204f9941d.json",
+					"name" : "ex-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "openal-info::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-openal-info-Debug-bbf59f90eee531d3bb67.json",
+					"name" : "openal-info",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "uhjdecoder::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-uhjdecoder-Debug-fc25733111a8417be7c3.json",
+					"name" : "uhjdecoder",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "uhjencoder::@66f471ecaabef0e179b5",
+					"jsonFile" : "target-uhjencoder-Debug-162399ab6f53efc9ba79.json",
+					"name" : "uhjencoder",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@6e1c74099b051ba4e0da",
+					"jsonFile" : "target-uninstall-Debug-1b7c742417233af39b51.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "vorbis::@b3683f5ebfb53121df68",
+					"jsonFile" : "target-vorbis-Debug-2559b161d856a54d310c.json",
+					"name" : "vorbis",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "vorbis_test::@d10dfce57ecba7e4a59d",
+					"jsonFile" : "target-vorbis_test-Debug-7609d199840285b1800d.json",
+					"name" : "vorbis_test",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "vorbisenc::@b3683f5ebfb53121df68",
+					"jsonFile" : "target-vorbisenc-Debug-d8e70d43584bf69e53bb.json",
+					"name" : "vorbisenc",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "vorbisfile::@b3683f5ebfb53121df68",
+					"jsonFile" : "target-vorbisfile-Debug-096c857e12d1d13c5c72.json",
+					"name" : "vorbisfile",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/viktor/repos/AudioInterface/build",
+		"source" : "/home/viktor/repos/AudioInterface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
